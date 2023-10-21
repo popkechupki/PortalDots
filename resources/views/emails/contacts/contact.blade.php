@@ -2,7 +2,7 @@
 # お問い合わせを承りました
 
 @isset($circle)
-{{ $circle->name }} 様
+{{ $circle->group_name }} 様
 @else
 {{ $sender->name }} 様
 @endisset
